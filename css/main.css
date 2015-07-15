@@ -937,21 +937,21 @@ text[data-color-index="1"] {
   background-color: #fdae61;
 }
 .series-label-1 {
-  color: #fdae61;
+  color: #2231f0
 }
 .series-label-input-1 {
-  border-bottom: 2px solid #fdae61;
+  border-bottom: 2px solid #2231f0;
 }
 .series-label-input-1:hover,
 .series-label-input-1:focus {
   border: none;
-  border-bottom: 2px solid #fdae61;
+  border-bottom: 2px solid #2231f0;
 }
 .series-label-input-1 input {
-  color: #fdae61;
+  color: #2231f0;
 }
 .cb-toggle.toggled.toggle-1 .cb-toggle-container {
-  background-color: #fdae61;
+  background-color: #2231f0;
 }
 [data-color-index="2"] path {
   stroke: #d73027;
