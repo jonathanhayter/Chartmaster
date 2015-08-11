@@ -865,6 +865,11 @@ svg.renderer-svg tspan {
   font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .svg-source-pipe {
   stroke: #ccc;
   fill: none;
@@ -905,6 +910,11 @@ svg.renderer-svg tspan {
 .medium .svg-text.svg-text-title {
   font-size: 20px;
 }
+.medium .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .small .em-size {
   font-size: 14px;
 }
@@ -929,6 +939,11 @@ svg.renderer-svg tspan {
   font-size: 12px;
 }
 .small .svg-text.svg-text-title {
+  font-size: 14px;
+}
+.small .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 .small .svg-label-text {
@@ -956,9 +971,15 @@ svg.renderer-svg tspan {
 .large .svg-text.svg-text-title {
   font-size: 20px;
 }
+.large .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .large .svg-label-text {
   font-size: 20px;
 }
 .cb-credit-logo {
   fill: #ccc;
 }
+
