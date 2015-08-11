@@ -42,47 +42,47 @@ text[data-color-index="0"] {
   background-color: #a50026;
 }
 [data-color-index="1"] path {
-  stroke: #2231f0;
+  stroke: #fdae61;
 }
 [data-color-index="1"] rect {
-  fill: #2231f0;
+  fill: #fdae61;
 }
 [data-color-index="1"] circle {
-  stroke: #2231f0;
+  stroke: #fdae61;
   stroke-width: 2px;
-  fill: #2231f0;
+  fill: #fdae61;
 }
 .color-index-1 {
-  fill: #2231f0;
+  fill: #fdae61;
 }
 rect[data-color-index="1"] {
-  fill: #2231f0;
+  fill: #fdae61;
 }
 text[data-color-index="1"] {
-  fill: #2231f0;
+  fill: #fdae61;
 }
 .d4 .axis .tick text[data-color-index="1"] {
-  fill: #2231f0;
+  fill: #fdae61;
 }
 .cb-colorpicker-color-1 {
-  background-color: #2231f0;
+  background-color: #fdae61;
 }
 .series-label-1 {
-  color: #2231f0;
+  color: #fdae61;
 }
 .series-label-input-1 {
-  border-bottom: 2px solid #2231f0;
+  border-bottom: 2px solid #fdae61;
 }
 .series-label-input-1:hover,
 .series-label-input-1:focus {
   border: none;
-  border-bottom: 2px solid #2231f0;
+  border-bottom: 2px solid #fdae61;
 }
 .series-label-input-1 input {
-  color: #2231f0;
+  color: #fdae61;
 }
 .cb-toggle.toggled.toggle-1 .cb-toggle-container {
-  background-color: #2231f0;
+  background-color: #fdae61;
 }
 [data-color-index="2"] path {
   stroke: #d73027;
@@ -865,6 +865,11 @@ svg.renderer-svg tspan {
   font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .svg-source-pipe {
   stroke: #ccc;
   fill: none;
@@ -905,6 +910,11 @@ svg.renderer-svg tspan {
 .medium .svg-text.svg-text-title {
   font-size: 20px;
 }
+.medium .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .small .em-size {
   font-size: 14px;
 }
@@ -931,6 +941,11 @@ svg.renderer-svg tspan {
 .small .svg-text.svg-text-title {
   font-size: 14px;
 }
+.small .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .small .svg-label-text {
   font-size: 14px;
 }
@@ -955,6 +970,11 @@ svg.renderer-svg tspan {
 }
 .large .svg-text.svg-text-title {
   font-size: 20px;
+}
+.large .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 .large .svg-label-text {
   font-size: 20px;
