@@ -279,6 +279,17 @@ var RendererWrapper = React.createClass({
 				);
 				metadataSvg.push(title);
 			}
+			if (metadata.subtitle && metadata.subtitle !== "") {
+				subtitle = (
+					<SvgText
+					text={metadata.subtitle}
+					key="subtitle"
+					translate={[translate.left, translate.top + 30]}
+					className="svg-text-subtitle"
+					/>
+				);
+				metadataSvg.push(subtitle);
+			}
 
 			metadataSvg.push(
 				<ChartFooter
