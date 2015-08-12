@@ -1745,7 +1745,7 @@ div.renderer-wrapper {
   height: 1em;
 }
 svg.renderer-svg {
-  fill: #fff;
+  fill: #ccc;
   font-family: 'Khula-Light', Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-box-sizing: border-box;
@@ -1753,7 +1753,7 @@ svg.renderer-svg {
   box-sizing: border-box;
 }
 svg.renderer-svg .svg-background {
-  fill: #fff;
+  fill: #ccc;
 }
 svg.renderer-svg tspan {
   height: 1em;
@@ -1786,7 +1786,7 @@ svg.renderer-svg tspan {
   stroke: #333;
 }
 .d4 .axis .tick rect {
-  fill: #fff;
+  fill: #ccc;
   shape-rendering: crispEdges;
 }
 .d4 .axis.leftAxis text {
@@ -1808,7 +1808,7 @@ svg.renderer-svg tspan {
   fill: #666;
 }
 .d4 .concealer-label rect {
-  fill: #fff;
+  fill: #ccc;
 }
 .d4 .connectors line {
   fill: none;
@@ -1907,8 +1907,6 @@ svg.renderer-svg tspan {
   font-size: 20px;
 }
 .medium .svg-text.svg-text-subtitle {
-  fill: #666;
-  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 .small .em-size {
@@ -1938,8 +1936,6 @@ svg.renderer-svg tspan {
   font-size: 14px;
 }
 .small .svg-text.svg-text-subtitle {
-  fill: #666;
-  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 .small .svg-label-text {
@@ -1968,8 +1964,6 @@ svg.renderer-svg tspan {
   font-size: 20px;
 }
 .large .svg-text.svg-text-subtitle {
-  fill: #666;
-  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 .large .svg-label-text {
@@ -2070,7 +2064,7 @@ svg.renderer-svg tspan {
 }
 .chartbuilder-editor .series-label-input input:hover,
 .chartbuilder-editor .series-label-input input:focus {
-  background-color: #fff;
+  background-color: #ccc;
   -webkit-transition: padding 0.1s ease-in;
   transition: padding 0.1s ease-in;
   padding: 0 0 0 10px;
