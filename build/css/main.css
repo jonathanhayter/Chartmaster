@@ -1745,7 +1745,7 @@ div.renderer-wrapper {
   height: 1em;
 }
 svg.renderer-svg {
-  fill: #ccc;
+  fill: #fff;
   font-family: 'Khula-Light', Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-box-sizing: border-box;
@@ -1753,7 +1753,7 @@ svg.renderer-svg {
   box-sizing: border-box;
 }
 svg.renderer-svg .svg-background {
-  fill: #ccc;
+  fill: #fff;
 }
 svg.renderer-svg tspan {
   height: 1em;
@@ -1786,7 +1786,7 @@ svg.renderer-svg tspan {
   stroke: #333;
 }
 .d4 .axis .tick rect {
-  fill: #ccc;
+  fill: #fff;
   shape-rendering: crispEdges;
 }
 .d4 .axis.leftAxis text {
@@ -1808,7 +1808,7 @@ svg.renderer-svg tspan {
   fill: #666;
 }
 .d4 .concealer-label rect {
-  fill: #ccc;
+  fill: #fff;
 }
 .d4 .connectors line {
   fill: none;
@@ -1861,6 +1861,11 @@ svg.renderer-svg tspan {
   font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+.svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .svg-source-pipe {
   stroke: #ccc;
   fill: none;
@@ -1901,6 +1906,11 @@ svg.renderer-svg tspan {
 .medium .svg-text.svg-text-title {
   font-size: 20px;
 }
+.medium .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .small .em-size {
   font-size: 14px;
 }
@@ -1927,6 +1937,11 @@ svg.renderer-svg tspan {
 .small .svg-text.svg-text-title {
   font-size: 14px;
 }
+.small .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 .small .svg-label-text {
   font-size: 14px;
 }
@@ -1951,6 +1966,11 @@ svg.renderer-svg tspan {
 }
 .large .svg-text.svg-text-title {
   font-size: 20px;
+}
+.large .svg-text.svg-text-subtitle {
+  fill: #666;
+  font-family: 'Khula-Regular', Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 .large .svg-label-text {
   font-size: 20px;
@@ -2050,7 +2070,7 @@ svg.renderer-svg tspan {
 }
 .chartbuilder-editor .series-label-input input:hover,
 .chartbuilder-editor .series-label-input input:focus {
-  background-color: #ccc;
+  background-color: #fff;
   -webkit-transition: padding 0.1s ease-in;
   transition: padding 0.1s ease-in;
   padding: 0 0 0 10px;

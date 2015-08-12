@@ -44388,7 +44388,7 @@ var display = {
 	labelXMargin: "0.6em",
 	labelTextMargin: "0.3em",
 	labelRowHeight: "1.2em",
-	afterTitle: "1.6em",
+	afterTitle: "2.6em",
 	afterLegend: "1.6em",
 	blockerRectOffset: "0.3em",
 	columnPaddingCoefficient: 0.3,
@@ -44957,7 +44957,8 @@ var chart_sizes = [
 var text_input_values = [
 	{ name: "title", content: "Title" },
 	{ name: "credit", content: "Credit" },
-	{ name: "source", content: "Source" }
+	{ name: "source", content: "Source" },
+	{ name: "subtitle", content: "Subtitle" }
 ];
 
 /**
@@ -44978,7 +44979,8 @@ var ChartMetadata = React.createClass({displayName: "ChartMetadata",
 			size: PropTypes.string.isRequired,
 			source: PropTypes.string,
 			credit: PropTypes.string,
-			title: PropTypes.string
+			title: PropTypes.string,
+			subtitle: PropTypes.string
 		}),
 		stepNumber: PropTypes.string,
 		additionalComponents: PropTypes.array
@@ -45742,6 +45744,17 @@ var RendererWrapper = React.createClass({displayName: "RendererWrapper",
 					)
 				);
 				metadataSvg.push(title);
+			}
+			if (metadata.subtitle && metadata.subtitle !== "") {
+				subtitle = (
+					React.createElement(SvgText, {
+					text: metadata.subtitle, 
+					key: "subtitle", 
+					translate: [translate.left, translate.top + 30], 
+					className: "svg-text-subtitle"}
+					)
+				);
+				metadataSvg.push(subtitle);
 			}
 
 			metadataSvg.push(
